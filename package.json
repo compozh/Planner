@@ -1,0 +1,45 @@
+{
+  "name": "bootstrap-vue_webpack-simple",
+  "description": "A Vue.js project",
+  "version": "1.0.0",
+  "author": "",
+  "private": true,
+  "scripts": {
+    "start": "npm run dev && node ./server/app",
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "bootstrap": "^4.0.0-beta.2",
+    "bootstrap-vue": "^1.2.0",
+    "express": "^4.16.3",
+    "materialize-css": "^1.0.0-rc.1",
+    "mongoose": "^5.0.16",
+    "nunjucks": "^3.1.2",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "popper.js": "^1.12.9",
+    "socket.io": "^2.1.0",
+    "socket.io-client": "^2.1.0",
+    "username": "^3.0.0",
+    "vue": "^2.5.3",
+    "vue-passport": "^1.0.13",
+    "vue-router": "^3.0.1",
+    "vue-socket.io": "^2.1.1-b"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^6.0.0",
+    "babel-preset-env": "^1.6.1",
+    "cross-env": "^5.1.1",
+    "css-loader": "^0.28.7",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "file-loader": "^1.1.5",
+    "style-loader": "^0.19.0",
+    "vue-loader": "^13.5.0",
+    "vue-template-compiler": "^2.5.3",
+    "webpack": "^3.8.1",
+    "webpack-dev-server": "^2.9.4"
+  }
+}
